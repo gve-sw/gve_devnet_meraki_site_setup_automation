@@ -1,0 +1,37 @@
+{
+    "rules": [
+        {
+            "comment": "first rule",
+            "policy": "allow",
+            "ipVersion": "ipv4",
+            "protocol": "udp",
+            "srcCidr": "any",
+            "srcPort": "any",
+            "dstCidr": "provide subnet",
+            "dstPort": "any",
+            "vlan": 
+        },
+        {
+            "comment": "second rule",
+            "policy": "allow",
+            "ipVersion": "ipv4",
+            "protocol": "udp",
+            "srcCidr": "any",
+            "srcPort": "any",
+            "dstCidr": "provide subnet",
+            "dstPort": "any",
+            "vlan": 
+        },
+        {
+            "comment": "third rule",
+            "policy": "allow",
+            "ipVersion": "ipv4",
+            "protocol": "udp",
+            "srcCidr": "any",
+            "srcPort": "any",
+            "dstCidr": "provide subnet",
+            "dstPort": "any",
+            "vlan": 
+        }
+    ]
+}

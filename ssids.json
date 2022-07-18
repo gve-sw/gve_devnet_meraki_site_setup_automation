@@ -1,0 +1,44 @@
+{
+	"name": "Give SSID a name",
+        "enabled": false,
+        "ipAssignmentMode": "Bridge mode",
+        "authMode": "8021x-radius",
+        "encryptionMode": "wpa",
+        "wpaEncryptionMode": "WPA2 only",
+        "dot11w": {
+		"enabled": false,
+		"required": false
+        },
+        "dot11r": {
+		"enabled": false,
+                "required": false
+	},
+        "radiusServers": [
+		{
+                    "host": "enter IP address of server",
+                    "port": 1,
+                    "secret": "password of server"
+                },
+                {
+                    "host": "enter IP address of server",
+                    "port": 1,
+                    "secret": "password of server"
+                }
+            ],
+        "radiusTestingEnabled": true,
+        "useVlanTagging": true,
+        "vlanId": 1,
+        "defaultVlanId": 1,
+        "radiusOverride": true,
+        "minBitrate": 11,
+        "bandSelection": "Dual band operation with Band Steering",
+        "perClientBandwidthLimitUp": 0,
+        "perClientBandwidthLimitDown": 0,
+        "perSsidBandwidthLimitUp": 0,
+        "perSsidBandwidthLimitDown": 0,
+        "lanIsolationEnabled": false,
+        "visible": true,
+        "availableOnAllAps":true,
+        "mandatoryDhcpEnabled": true,
+        "adultContentFilteringEnabled": false
+}
